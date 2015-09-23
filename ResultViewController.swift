@@ -72,10 +72,10 @@ class ResultViewController: UIViewController {
         self.view.addSubview(resultImageView)
         
         //閉じるボタンの作成
-        let closeImage = UIImage(named: "凶.png")
+        let closeImage = UIImage(named: "バツボタン@2x.png")
         closeButton = UIButton()
         closeButton.frame = CGRectMake(15,statusBarHeight+5,30,30)
-        closeButton.backgroundColor = UIColor(red: 0.267, green: 0.541, blue: 1.000, alpha: 1.0)
+        //closeButton.backgroundColor = UIColor(red: 0.267, green: 0.541, blue: 1.000, alpha: 1.0)
         closeButton.setImage(closeImage, forState: nil)
         
         // イベントを追加する.
