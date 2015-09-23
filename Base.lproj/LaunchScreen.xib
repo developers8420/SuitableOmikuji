@@ -10,29 +10,19 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015年 developers. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
-                    <rect key="frame" x="20" y="439" width="441" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Defaults.png" translatesAutoresizingMaskIntoConstraints="NO" id="ynn-ej-ngz">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Defaults.png" translatesAutoresizingMaskIntoConstraints="NO" id="fPx-76-ytg">
                     <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="ynn-ej-ngz" secondAttribute="centerY" id="aee-rc-86i"/>
-                <constraint firstAttribute="centerX" secondItem="ynn-ej-ngz" secondAttribute="centerX" id="sv3-jf-grK"/>
+                <constraint firstItem="fPx-76-ytg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6JB-ls-xIP"/>
+                <constraint firstItem="fPx-76-ytg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="K1Y-VL-sZj"/>
+                <constraint firstAttribute="trailing" secondItem="fPx-76-ytg" secondAttribute="trailing" id="j9L-xo-FKY"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <variation key="default">
-                <mask key="subviews">
-                    <exclude reference="8ie-xW-0ye"/>
-                </mask>
-            </variation>
-            <point key="canvasLocation" x="548" y="455"/>
+            <point key="canvasLocation" x="561" y="342"/>
         </view>
     </objects>
     <resources>
