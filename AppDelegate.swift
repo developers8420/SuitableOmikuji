@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SuitableOmikuji
 //
-//  Created by 秋山友也 on 2015/09/23.
+//  Created by developers on 2015/09/23.
 //  Copyright (c) 2015年 developers. All rights reserved.
 //
 
