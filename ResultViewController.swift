@@ -100,4 +100,13 @@ class ResultViewController: UIViewController {
         self.dismissViewControllerAnimated(true, completion: nil)
         
     }
+    
+    //以下画面固定
+    override func shouldAutorotate() -> Bool{
+        return false
+    }
+    
+    override func supportedInterfaceOrientations() -> Int {
+        return Int(UIInterfaceOrientationMask.Portrait.rawValue)
+    }
 }

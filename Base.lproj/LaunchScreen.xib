@@ -9,23 +9,10 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Defaults.png" translatesAutoresizingMaskIntoConstraints="NO" id="fPx-76-ytg">
-                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
-                </imageView>
-            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstItem="fPx-76-ytg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6JB-ls-xIP"/>
-                <constraint firstItem="fPx-76-ytg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="K1Y-VL-sZj"/>
-                <constraint firstAttribute="trailing" secondItem="fPx-76-ytg" secondAttribute="trailing" id="j9L-xo-FKY"/>
-            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="561" y="342"/>
         </view>
     </objects>
-    <resources>
-        <image name="Defaults.png" width="320" height="480"/>
-    </resources>
 </document>
